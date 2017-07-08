@@ -79,8 +79,8 @@ ul {
 
 
 [npm-url]: https://www.npmjs.com/package/nxtlife-ionic2-rating
-[downloads-url]: http://badge.fury.io/js/nxtlife-ionic2-rating
 [npm-image]: https://img.shields.io/npm/v/nxtlife-ionic2-rating.svg
 [downloads-image]: https://img.shields.io/npm/dm/nxtlife-ionic2-rating.svg
+[downloads-url]: http://badge.fury.io/js/nxtlife-ionic2-rating
 [nodei-image]: https://nodei.co/npm/nxtlife-ionic2-rating.png?downloads=true&downloadRank=true&stars=true
 [nodei-url]: https://www.npmjs.com/package/nxtlife-ionic2-rating
