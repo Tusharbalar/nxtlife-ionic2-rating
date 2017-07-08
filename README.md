@@ -7,13 +7,13 @@ Build a simple directive to visualize a star rating bar using angular2 and ionic
 
 [![NPM][nodei-image]][nodei-url]
 
-## How to install:
+## Installation:
 
 ```
 $ npm install --save nxtlife-ionic2-rating
 ```
 
-## How to use:
+## Usage:
 
 Import `NxtLifeIonic2RatingModule` on module definition that declares the page where you want to add the rating component.
 In some cases, all pages are declared on `src/app/app.module.ts`.
@@ -81,7 +81,7 @@ ul {
 
 [npm-url]: https://www.npmjs.com/package/nxtlife-ionic2-rating
 [npm-image]: https://img.shields.io/npm/v/nxtlife-ionic2-rating.svg
-[downloads-image]: https://img.shields.io/npm/dm/nxtlife-ionic2-rating.svg
-[downloads-url]: http://badge.fury.io/js/nxtlife-ionic2-rating
 [nodei-image]: https://nodei.co/npm/nxtlife-ionic2-rating.png?downloads=true&downloadRank=true&stars=true
 [nodei-url]: https://www.npmjs.com/package/nxtlife-ionic2-rating
+[downloads-image]: https://img.shields.io/npm/dm/nxtlife-ionic2-rating.svg
+[downloads-url]: http://badge.fury.io/js/nxtlife-ionic2-rating
