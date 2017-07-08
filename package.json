@@ -1,0 +1,31 @@
+{
+  "name": "nxtlife-ionic2-rating",
+  "version": "1.0.0",
+  "description": "An Angular2 component to visualize a star rating bar, built for Ionic 2.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tusharbalar/nxtlife-ionic2-rating"
+  },
+  "keywords": ["ionic2", "angular2"],
+  "author": "Tushar Balar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tusharbalar/nxtlife-ionic2-rating/issues"
+  },
+  "homepage": "https://github.com/Tusharbalar/nxtlife-ionic2-rating",
+  "devDependencies": {
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/compiler-cli": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/platform-server": "2.2.1",
+    "ionic-angular": "2.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.26",
+    "typescript": "2.0.9"
+  }
+}
