@@ -20,46 +20,48 @@ In some cases, all pages are declared on `src/app/app.module.ts`.
 
 ```typescript
 import { NgModule } from '@angular/core';
-import { IonicApp, IonicModule } from 'ionic-angular';
+import { IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 
 // Import ionic2-rating module
 import { NxtLifeIonic2RatingModule } from 'nxtlife-ionic2-rating';
 
 @NgModule({
-  declarations: [
-    MyApp,
-    HomePage
-  ],
+  ......
+  ......
   imports: [
     IonicModule.forRoot(MyApp),
     NxtLifeIonic2RatingModule // Put ionic2-rating module here
   ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    HomePage
-  ],
-  providers: []
+  ......
+  ......
 })
 export class AppModule {}
 ```
 
 Include the component on page template, like the example below:
 ```HTML
-<nxtlife-rating [(ngModel)]="rate" 
-        readOnly="false" <!--default value-->
-        max="5" <!--default value-->
-        emptyStarIconName="star-outline" <!--default value-->
-        halfStarIconName="star-half" <!--default value-->
-        starIconName="star" <!--default value-->
-        nullable="false" <!--default value-->
-        (ngModelChange)="onModelChange($event)"> <!--use it when you need to do something when user clicks on a star. in case you only need to change ngModel property, this property can be ommited.-->
+<nxtlife-rating></nxtlife-rating>
+```
+
+### DEFAULT VALUE
+```
+readOnly = false,
+max = 5,
+emptyStarIconName = "star-outline",
+halfStarIconName = "star-half",
+starIconName = "star",
+nullable = false
+```
+When you need to do something when user clicks on a start then you have to use `(click)` or `(ngModelChange)` with 
+`[(ngModel)]`:
+
+```HTML
+<nxtlife-rating [(ngModel)]="rate" (ngModelChange)="onModelChange($event)">
 </nxtlife-rating>
 ```
 
-### You may also need to customize component styles:
+### If you want to customize style:
 
 ```CSS
 ul {
@@ -76,7 +78,6 @@ ul {
   }
 }
 ```
-
 
 [npm-url]: https://www.npmjs.com/package/nxtlife-ionic2-rating
 [npm-image]: https://img.shields.io/npm/v/nxtlife-ionic2-rating.svg
